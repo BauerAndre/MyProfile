@@ -1,0 +1,16 @@
+body {
+  background-color: black;
+  position: relative;
+  padding: 50px 100px;
+}
+
+#start {
+position: relative;
+  }
+
+  .wrapper {
+    border-color: gray;
+    border: 5px;
+    border-style: solid;
+    height: 700px;
+  }
