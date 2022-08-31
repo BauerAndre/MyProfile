@@ -9,8 +9,9 @@ position: relative;
   }
 
   .wrapper {
-    border-color: gray;
+    border-color: rgb(62, 61, 61);
     border: 5px;
     border-style: solid;
     height: 700px;
+    color: rgb(194, 254, 192);
   }

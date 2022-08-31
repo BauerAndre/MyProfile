@@ -12,10 +12,26 @@
 </head>
 <body>
   <div class="wrapper">
-    <button class="btn btn-primary" id="start">Press to start</button>
+    <button onclick="typeWriter()" class="btn btn-primary" id="start">Press to start</button>
 
 
 
+
+    <p id="demo"></p>
+
+    <script>
+    var i = 0;
+    var txt = '<image>avatar</image>';
+    var speed = 50;
+
+    function typeWriter() {
+      if (i < txt.length) {
+        document.getElementById("demo").innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+      }
+    }
+    </script>
 
 
 
