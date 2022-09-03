@@ -14,24 +14,10 @@
   <div class="wrapper">
     <button onclick="typeWriter()" class="btn btn-primary" id="start">Press to start</button>
 
-
+    <div class="avatar"></div>
 
     <p>></p>
-    <p id="demo"></p>
-
-    <script>
-    var i = 0;
-    var txt = '> <br> > <br> > <br> > <br> ';
-    var speed = 50;
-
-    function typeWriter() {
-      if (i < txt.length) {
-        document.getElementById("demo").innerHTML += txt.charAt(i);
-        i++;
-        setTimeout(typeWriter, speed);
-      }
-    }
-    </script>
+    <p id="img_tag"></p>
 
 
 

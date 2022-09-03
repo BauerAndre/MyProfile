@@ -8,10 +8,22 @@ body {
 position: relative;
   }
 
-  .wrapper {
-    border-color: rgb(62, 61, 61);
-    border: 5px;
-    border-style: solid;
-    height: 700px;
-    color: rgb(194, 254, 192);
-  }
+.wrapper {
+  border-color: rgb(62, 61, 61);
+  border: 5px;
+  border-style: solid;
+  height: 700px;
+  color: rgb(194, 254, 192);
+}
+
+.avatar {
+  position: absolute;
+  background-size: cover;
+  background-image: url(image.jpeg);
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  width: 100px;
+  height: 100px;
+}
